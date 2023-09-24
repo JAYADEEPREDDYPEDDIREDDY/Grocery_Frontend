@@ -7,7 +7,7 @@ import axios from 'axios';
 function GroceryList() {
   const [data, setData] = useState([]);
   const [dataCat, setDataCat] = useState([]);
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  // const [selectedCategory, setSelectedCategory] = useState(null);
 
   // Function to fetch data based on the selected category
   const fetchDataByCategory = async (category) => {
@@ -21,7 +21,7 @@ function GroceryList() {
 
   // Function to handle dropdown selection change
   const handleCategoryChange = (category) => {
-    setSelectedCategory(category);
+    // setSelectedCategory(category);
     fetchDataByCategory(category);
   };
 

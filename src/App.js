@@ -17,11 +17,7 @@ function App() {
     <Route path="/Fpo" element={<FPO/>}/>
     <Route path="/addCategory" element={<AddCategory/>}/>
     </Routes>
-    </BrowserRouter>
-    
- 
-
-    
+    </BrowserRouter>    
   );
 }
 
